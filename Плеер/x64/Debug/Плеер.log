@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\kaurk\source\repos\Плеер\main.cpp(92,41): warning C4244: аргумент: преобразование "size_t" в "float", возможна потеря данных
+C:\Users\kaurk\source\repos\Плеер\main.cpp(215,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\kaurk\source\repos\Плеер\main.cpp(296,66): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\kaurk\source\repos\Плеер\main.cpp(353,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Плеер.vcxproj -> C:\Users\kaurk\source\repos\Плеер\x64\Debug\Плеер.exe
