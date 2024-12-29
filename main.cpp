@@ -351,7 +351,7 @@ public:
     MusicPlayer() : window(VideoMode(1000, 600), "Vladify"), currentSongIndex(0), isPlaying(false), isRandom(false)
     {
         srand(time(0));  // Инициализация генератора случайных чисел
-        if (!font.loadFromFile("C:/Users/kaurk/source/repos/Плеер/x64/Debug/arialmt.ttf"))
+        if (!font.loadFromFile("C:/Users/kaurk/source/repos/Плеер/resources/arialmt.ttf"))
         {
             cerr << "Ошибка загрузки шрифта!" << endl;
             exit(-1);
@@ -359,13 +359,13 @@ public:
 
         songs =
         {
-            {"ski-ba-bop-ba-dop-bop", "C:/Users/kaurk/source/repos/Плеер/x64/Debug/Scatman_John_-_Scatman_ski-ba-bop-ba-dop-bop_73330111.ogg"},
-            {"Una mattina", "C:/Users/kaurk/source/repos/Плеер/x64/Debug/Ludovico_Einaudi_-_Una_Mattina_48077742.ogg"},
-            {"TNT", "C:/Users/kaurk/source/repos/Плеер/x64/Debug/ACDC_-_TNT_39240727.ogg"},
-            {"That s-Life", "C:/Users/kaurk/source/repos/Плеер/x64/Debug/Frank-Sinatra-That_s-Life.ogg"},
-            {"Highway to hell", "C:/Users/kaurk/source/repos/Плеер/x64/Debug/ACDC_-_Highway_To_Hell_39240749.ogg"},
-            {"Whole lottaRosie", "C:/Users/kaurk/source/repos/Плеер/x64/Debug/ACDC_-_Whole_LottaRosie_39240756.ogg"},
-            {"Hit the road jack", "C:/Users/kaurk/source/repos/Плеер/x64/Debug/Ray_Charles_The_Raelets_-_Hit_the_Road_Jack_60310959.ogg"}
+            {"ski-ba-bop-ba-dop-bop", "C:/Users/kaurk/source/repos/Плеер/resources/Scatman_John_-_Scatman_ski-ba-bop-ba-dop-bop_73330111.ogg"},
+            {"Una mattina", "C:/Users/kaurk/source/repos/Плеер/resources/Ludovico_Einaudi_-_Una_Mattina_48077742.ogg"},
+            {"TNT", "C:/Users/kaurk/source/repos/Плеер/resources/ACDC_-_TNT_39240727.ogg"},
+            {"That s-Life", "C:/Users/kaurk/source/repos/Плеер/resources/Frank-Sinatra-That_s-Life.ogg"},
+            {"Highway to hell", "C:/Users/kaurk/source/repos/Плеер/resources/ACDC_-_Highway_To_Hell_39240749.ogg"},
+            {"Whole lottaRosie", "C:/Users/kaurk/source/repos/Плеер/resources/ACDC_-_Whole_LottaRosie_39240756.ogg"},
+            {"Hit the road jack", "C:/Users/kaurk/source/repos/Плеер/resources/Ray_Charles_The_Raelets_-_Hit_the_Road_Jack_60310959.ogg"}
         };
 
         initializeInterface();
@@ -422,10 +422,9 @@ public:
     }
 };
 
-int main()
+int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
     MusicPlayer player;
     player.run();
     return 0;
 }
-

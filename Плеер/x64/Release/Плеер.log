@@ -1,0 +1,13 @@
+﻿cl : командная строка  warning D9025: переопределение "/MD" на "/MT"
+  main.cpp
+C:\Users\kaurk\source\repos\Плеер\main.cpp(92,41): warning C4244: аргумент: преобразование "size_t" в "float", возможна потеря данных
+C:\Users\kaurk\source\repos\Плеер\main.cpp(215,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\kaurk\source\repos\Плеер\main.cpp(296,66): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\kaurk\source\repos\Плеер\main.cpp(353,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\kaurk\source\repos\Плеер\main.cpp(425,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "WinMain"
+C:\Users\kaurk\source\repos\Плеер\main.cpp(425,32): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "hInstance"
+C:\Users\kaurk\source\repos\Плеер\main.cpp(425,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\kaurk\source\repos\Плеер\main.cpp(425,32): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "hInstance"
+C:\Users\kaurk\source\repos\Плеер\main.cpp(425,97): error C2059: синтаксическая ошибка: )
+C:\Users\kaurk\source\repos\Плеер\main.cpp(426,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\kaurk\source\repos\Плеер\main.cpp(426,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)

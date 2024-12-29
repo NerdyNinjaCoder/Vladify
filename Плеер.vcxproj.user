@@ -1,4 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+	<PropertyGroup>
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>MultiByte</CharacterSet>
+		<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+		<SubSystem>Windows</SubSystem>
+		<!-- Для оконного приложения -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ClCompile Include="main.cpp"/>
+	</ItemGroup>
 </Project>
